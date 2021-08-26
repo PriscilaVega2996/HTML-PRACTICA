@@ -1,0 +1,48 @@
+
+html {
+    @include box-sizing(border-box);
+    height: 100%;
+}
+
+*,
+*:after,
+*:before {
+  @include box-sizing(inherit);
+}
+
+body {
+    font-family: $fuente_principal;
+}
+
+img {
+    max-width: 100%;
+}
+
+.centrado {
+    text-align:center;
+}
+
+.oculto {
+    display: none;
+}
+
+.pagina{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    .nombre-sitio{
+        flex: 0 0 5rem;
+    }
+    @include desktop {
+        flex: 0 0 20rem;
+    }
+    background-color: $secundario;
+}
+
+.contenedor-principal{
+    flex:1;
+}

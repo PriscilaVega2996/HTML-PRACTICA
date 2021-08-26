@@ -1,0 +1,27 @@
+{
+  "name": "netflix_inicio",
+  "version": "1.0.0",
+  "description": "Proyecto Netflix login con flexbox, gulp y sass",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PriscilaVega2996/HTML-PRACTICA.git"
+  },
+  "author": "Priscila Vega Delgado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PriscilaVega2996/HTML-PRACTICA/issues"
+  },
+  "homepage": "https://github.com/PriscilaVega2996/HTML-PRACTICA#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "sass": "^1.37.5"
+  }
+}
